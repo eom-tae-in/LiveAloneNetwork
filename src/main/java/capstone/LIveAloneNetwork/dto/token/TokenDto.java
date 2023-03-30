@@ -21,6 +21,8 @@ import static com.capstone.liveAloneComunity.dto.token.TokenGeneratingComponent.
 @Builder
 public class TokenDto {
 
+    private String a;
+
     private String grantType;
     private String accessToken;
     private String refreshToken;
